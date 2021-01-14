@@ -11,18 +11,18 @@ For the development of the project I used JUnit as the tool for the Test Driven 
 ## Design Patterns
 
 Creational Design Pattern -
-1. Prototype Pattern : 
+* Prototype Pattern : 
 The prototype pattern was employed in the creation of a curriculum object. The class curriculum houses all the attributes that a curriculum has.
 To make a new curriculum object, the prototype for a curriculum is clone instead of instantiating a new Curriculum object.
 
 Structural Design Pattern -
-2. Composite Pattern : 
+* Composite Pattern : 
 The goal of the composite pattern is to be able to treat individual and grouped subjects just as you would with an indivual object. Since, by nature the majority of the elements of the program is composed of individual objects which are aggregated into lists, I made the decision to incorporate the principles of the Composite Design Pattern in organizing my program's elements.
 
 For instance, both Classes Course and CourseList implement interfaces which extend the DisplayInterface. To display items of a list object, the list class delegates the work to its individual objects to call the display method. Both the Object Class and the ObjectList class use the same display method.
 
 Behavioral Design Pattern -
-3. Template Method :
+* Template Method :
 In the template method, an algorithm's skeleton structure is defined in an abstract class or in an interface, letting subclasses inherit the same structure but with the option of overriding some depending on the specifications of that subclass.
 
 The template method is used with the structure of the program's Individual Object Classes : Curriculum, Course and Topic. All three extend the abstract class 'Item' which defines methods and attributes common to the three classes. These classes differ only in the implementation of their associated ObjectList classes.
