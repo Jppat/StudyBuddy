@@ -39,4 +39,4 @@ static int index;
 
 //methods
 ```
-* Adding one line of space after every method
+* Adding one line of space after every method.
