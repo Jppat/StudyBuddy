@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.panizales"},{"l":"com.panizales.course"},{"l":"com.panizales.curriculum"},{"l":"com.panizales.topic"},{"l":"test"}];updateSearchResults();
