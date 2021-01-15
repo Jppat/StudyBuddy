@@ -22,7 +22,7 @@ The goal of the composite pattern is to be able to treat individual and grouped 
 For instance, both Classes Course and CourseList implement interfaces which extend the DisplayInterface. To display items of a list object, the list class delegates the work to its individual objects to call the display method. Both the Object Class and the ObjectList class use the same display method.
 
 Behavioral Design Pattern -
-* Template Method :
+* Template Pattern :
 In the template method, an algorithm's skeleton structure is defined in an abstract class or in an interface, letting subclasses inherit the same structure but with the option of overriding some depending on the specifications of that subclass.
 
 The template method is used with the structure of the program's Individual Object Classes : Curriculum, Course and Topic. All three extend the abstract class 'Item' which defines methods and attributes common to the three classes. These classes differ only in the implementation of their associated ObjectList classes.
